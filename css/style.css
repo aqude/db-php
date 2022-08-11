@@ -1,4 +1,62 @@
-form, h2, p{
-    width: 500px;
-    margin-left: 300px;
+h3, h2, p{
+    font-size: 50px ;
+}
+
+/*.user-login-parent {*/
+/*    margin-left: 10%;*/
+/*    margin-right: 20%;*/
+/*    margin-top: 10%;*/
+/*    !*width: 50em*!*/
+/*}*/
+.user-login-child, .user-login-child ul{
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.centerT {
+    padding-top: 10%;
+
+}
+.user-login-child ul li{
+
+    list-style:none;
+    float:left;
+    width:32%;
+    margin:0px 20px 0px 0px;
+}
+
+.imag {
+    width:100%;
+    text-align:center;
+}
+
+.form-submit-button {
+    background: #B9DFFF;
+    color: #fff;
+    border: 20px solid #eee;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #eee;
+    text-shadow: none;
+}
+.form-submit-button:hover {
+    background: #016ABC;
+    color: #fff;
+    border: 20px solid #eee;
+    border-radius: 20px;
+    box-shadow: 15px 15px 15px #eee;
+    text-shadow: none;
+}
+
+.imag img {
+    width:600px;
+    height:600px;
+}
+
+.user-login-child ul li p input {
+
+}
+
+.centerT {
+    text-align: center;
 }

@@ -12,7 +12,8 @@ if ($connect -> connect_error) {
 }
 // Создание дб
 //$sql = "CREATE DATABASE testdb2";
-//if($connect -> query($sql)){
+//if($connect ->
+// query($sql)){
 //    echo "База данных успешно создана";
 //} else{
 //    echo "Ошибка: " . $connect->error;

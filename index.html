@@ -1,17 +1,35 @@
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" href="css/style.css">
 <head>
   <title>Тест епта)</title>
   <meta charset="utf-8" />
 </head>
 <body>
-<h3>Добавление пользователя</h3>
-<form action="create.php" method="post">
-  <p>Имя:
-    <input type="text" name="username" /></p>
-  <p>Возраст:
-    <input type="number" name="age" /></p>
-  <input type="submit" value="Добавить">
-</form>
+  <h3 class="centerT">Добавление пользователя</h3>
+  <div class="user-login-child">
+    <ul>
+      <li>
+        <div class="imag">
+          <img src="src/karl.svg" alt="photo">
+        </div>
+      </li>
+      <li>
+        <form action="create.php" method="post">
+          <p>Имя:
+            <input type="text" name="username" /></p>
+          <p>Возраст:
+            <input type="number" name="age" /></p>
+            <input class="form-submit-button" type="submit" value="Добавить">
+        </form>
+      </li>
+      <li>
+        <div class="imag">
+          <img src="src/nazi-villain.svg" alt="photo">
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
 </body>
 </html>
